@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 /*
 .wrapper {
     width: 1440px;
@@ -10,13 +11,11 @@ header {
 }
 */
 
-
 .wrapper {
     width: 75%;
     /* height: 980px; */
     height: auto;
     margin: 0 auto;
-
 }
 
 header {
@@ -39,6 +38,7 @@ h2 {
     color: rgb(45,108,118);
     font-family: Tahoma;
     text-align: center;
+    font-size: 133.33%;
     /* overflow: hidden; */
 }
 
@@ -77,8 +77,10 @@ h4 {
 
 .aside-left {
     /* width: 220px; */
-    width: 15.27%;
+    /* width: 15.27%; */
+    margin-right: 50px;
     float: left;
+    /* position: fixed; */
     /* overflow: hidden; */
 }
 
@@ -89,6 +91,7 @@ nav {
     font-weight: 900;
     font-size: 18px;
     padding-top: 65px;
+    /* position: fixed; */
 }
 
 li {
@@ -184,6 +187,7 @@ section {
     width: 76.988636%;
     /* height: 48px; */
     height: auto;
+    font-size: 1em;
 }
 
 .txtnews {
@@ -230,4 +234,10 @@ footer {
 .rightFoot {
     width: 33.3%;
     float: left
+}
+
+@media (min-width: 1440px){
+    .wrapper {
+        /* background-color: rebeccapurple; */
+    }
 }
