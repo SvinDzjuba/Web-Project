@@ -30,7 +30,6 @@ header {
     padding-top: 40px;
     width: 145px;
     height: auto;
-
 }
 
 h2 {
@@ -515,11 +514,11 @@ footer {
     .number {
         margin-top: 60px;
         margin-right: 20px;
-        width: 15.83%;
+        width: 30.83%;
         float: right;
         color: rgb(45,108,118);
         font-weight: 900;
-        font-size: 20px;
+        font-size: 18px;
     }
     
     h3 {
@@ -547,16 +546,18 @@ footer {
     
     .aside-left {
         /* width: 220px; */
-        /* width: 15.27%; */
+        width: 100%;
         /* margin-right: 50px; */
         float: left;
         /* position: fixed; */
         /* overflow: hidden; */
+        margin: 0 auto;
     }
     
     nav {
         /* width: 200px; */
         width: 90.90%;
+        margin: 0 auto;
         color: rgb(45,108,118);
         font-weight: 900;
         font-size: 18px;
@@ -565,14 +566,16 @@ footer {
     }
 
     ul {
+        text-align: center;
         white-space: nowrap;
-        width: 100%;
-        margin: 25px auto;
+        margin-left: 0;
+        margin-right: 35px;
     }
     
     li {
-        margin-left: 75px;
+        width: 15%;
         display: inline;
+        /* padding: ; */
     }
     
     main {
@@ -765,7 +768,7 @@ footer {
         float: right;
         color: rgb(45,108,118);
         font-weight: 900;
-        font-size: 18px;
+        font-size: 0.85em;
     }
     
     h3 {
@@ -793,7 +796,7 @@ footer {
     
     .aside-left {
         /* width: 220px; */
-        /* width: 15.27%; */
+        width: 100%;
         margin-right: 50px;
         float: left;
         /* overflow: hidden; */
@@ -801,15 +804,25 @@ footer {
     
     nav {
         /* width: 200px; */
-        width: 90.90%;
+        /* width: 90.90%; */
         color: rgb(45,108,118);
         font-weight: 900;
         font-size: 18px;
         padding-top: 65px;
     }
     
+    ul {
+        text-align: center;
+        white-space: nowrap;
+        margin-left: 0;
+        margin-right: 35px;
+    }
+    
     li {
-        padding: 3px;
+        width: 15%;
+        display: inline;
+        font-size: 0.85em;
+        /* padding: ; */
     }
     
     main {
@@ -885,6 +898,7 @@ footer {
         clear: both;
         padding-top: 10px;
         padding: 2px;
+        padding-bottom: 45px;
     }
     
     /* .aside-right {
@@ -914,7 +928,7 @@ footer {
     }
     
     .txtnews1 {
-        font-size:14px;
+        font-size: 14px;
         font-family: 'Roboto', sans-serif;
         letter-spacing: 0.2px;
     }
@@ -952,5 +966,27 @@ footer {
     .rightFoot {
         width: 33.3%;
         float: left
+    }
+}
+
+
+
+
+
+
+
+@media(max-width: 570px) {
+    li {
+        width: 10%;
+        font-size: 0.65em;
+    }
+
+    .number {
+        width: 50%;
+        font-size: 0.85em;
+    }
+
+    footer {
+        font-size: 0.75em;
     }
 }
