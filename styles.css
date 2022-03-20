@@ -2,6 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 /*
 .wrapper {
     width: 1440px;
@@ -10,6 +12,8 @@ header {
     width: 1440px;
 }
 */
+
+
 @media (min-width: 1440px){
 
 .wrapper {
@@ -236,6 +240,8 @@ footer {
     float: left
 }
 }
+
+
 
 
 
@@ -972,21 +978,57 @@ footer {
 
 
 
-
-
-
-@media(max-width: 570px) {
+@media (min-width: 481px) and (max-width: 570px) {
     li {
         width: 10%;
         font-size: 0.65em;
     }
 
     .number {
-        width: 50%;
+        width: 30%;
         font-size: 0.85em;
     }
 
     footer {
         font-size: 0.75em;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .number {
+        width: 30%;
+        font-size: 0.75em;
+    }
+
+    .aside-left {
+        /* width: 220px; */
+        width: 85%;
+        float: left;
+        margin: 0 auto;
+        /* overflow: hidden; */
+    }
+    
+    nav {
+        /* width: 200px; */
+        width: 90.90%;
+        color: rgb(45,108,118);
+        font-weight: 900;
+        font-size: 22px;
+        /* padding-top: 65px; */
+    }
+    
+    ul {
+        text-align: left;
+        white-space: pre-line;
+        /* margin-right: 35px; */
+    }
+    
+    li {
+        width: 50%;
+        display: list-item;
+        font-size: 0.85em;
+        /* padding: ; */
     }
 }
