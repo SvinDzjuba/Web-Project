@@ -14,6 +14,8 @@ header {
 */
 
 
+/* КОМПЬЮТЕР */
+
 @media (min-width: 1440px){
 
 .wrapper {
@@ -22,6 +24,8 @@ header {
     height: auto;
     margin: 0 auto;
 }
+
+                                    /* HEADER */
 
 header {
     width: 100%;
@@ -36,16 +40,6 @@ header {
     height: auto;
 }
 
-h2 {
-    /* width: 1440px; */
-    width: 100%;
-    color: rgb(45,108,118);
-    font-family: Tahoma;
-    text-align: center;
-    font-size: 133.33%;
-    /* overflow: hidden; */
-}
-
 .number {
     margin-top: 60px;
     margin-right: 90px;
@@ -54,6 +48,39 @@ h2 {
     color: rgb(45,108,118);
     font-weight: 900;
     font-size: 20px;
+}
+
+                                        /* ASIDE LEFT */
+
+.aside-left {
+    /* width: 220px; */
+    /* width: 15.27%; */
+    margin-right: 50px;
+    float: left;
+}
+
+nav {
+    /* width: 200px; */
+    width: 90.90%;
+    color: rgb(45,108,118);
+    font-weight: 900;
+    font-size: 18px;
+    padding-top: 65px;
+}
+
+li {
+    padding: 3px;
+}
+
+                                        /* HEADINGS */
+
+h2 {
+    /* width: 1440px; */
+    width: 100%;
+    color: rgb(45,108,118);
+    font-family: Tahoma;
+    text-align: center;
+    font-size: 133.33%;
 }
 
 h3 {
@@ -76,38 +103,15 @@ h4 {
     background-color: rgb(45,108,118);
     text-align: center;
     margin-bottom: 0px;
-    /* padding: 2px 4px; */
 }
 
-.aside-left {
-    /* width: 220px; */
-    /* width: 15.27%; */
-    margin-right: 50px;
-    float: left;
-    /* position: fixed; */
-    /* overflow: hidden; */
-}
-
-nav {
-    /* width: 200px; */
-    width: 90.90%;
-    color: rgb(45,108,118);
-    font-weight: 900;
-    font-size: 18px;
-    padding-top: 65px;
-    /* position: fixed; */
-}
-
-li {
-    padding: 3px;
-}
+                                                    /* MAIN */
 
 main {
     /* width: 832px; */
     width: 57.7%;
     float: left;
     text-align: center;
-    /* border: 2px solid red; */
     overflow: hidden;
 }
 
@@ -171,14 +175,14 @@ section {
 .bottomtext {
     /* width: 832px; */
     width: 98%;
-    /* float: left; */
     clear: both;
     padding-top: 10px;
     padding: 2px;
 }
 
+                                            /* ASIDE RIGHT */
+
 .aside-right {
-    /* overflow: hidden; */
     /* width: 352px; */
     width: 24.4%;
     float: right;
@@ -210,6 +214,8 @@ section {
     float: left;
     font-size: 20px;
 }
+
+                                            /* FOOTER */
 
 footer {
     /* width: 1440px; */
@@ -247,13 +253,15 @@ footer {
 
 
 
-
+            /* ПЛАНШЕТ */
 
 @media (max-width: 1439px){
     .wrapper {
         width: 85%;
         margin: 0 auto;
     }
+
+                                                /* HEADER */
 
     header {
         width: 100%;
@@ -269,16 +277,6 @@ footer {
     
     }
     
-    h2 {
-        /* width: 1440px; */
-        width: 100%;
-        color: rgb(45,108,118);
-        font-family: Tahoma;
-        text-align: center;
-        font-size: 133.33%;
-        /* overflow: hidden; */
-    }
-    
     .number {
         margin-top: 60px;
         margin-right: 90px;
@@ -287,6 +285,17 @@ footer {
         color: rgb(45,108,118);
         font-weight: 900;
         font-size: 20px;
+    }
+
+                                                /* HEADINGS */
+
+    h2 {
+        /* width: 1440px; */
+        width: 100%;
+        color: rgb(45,108,118);
+        font-family: Tahoma;
+        text-align: center;
+        font-size: 133.33%;
     }
     
     h3 {
@@ -309,16 +318,15 @@ footer {
         background-color: rgb(45,108,118);
         text-align: center;
         margin-bottom: 0px;
-        /* padding: 2px 4px; */
     }
+
+                                                        /* ASIDE LEFT */
     
     .aside-left {
         /* width: 220px; */
         /* width: 15.27%; */
         margin-right: 50px;
         float: left;
-        /* position: fixed; */
-        /* overflow: hidden; */
     }
     
     nav {
@@ -328,19 +336,19 @@ footer {
         font-weight: 900;
         font-size: 18px;
         padding-top: 65px;
-        /* position: fixed; */
     }
     
     li {
         padding: 3px;
     }
     
+                                                    /* MAIN */
+
     main {
         /* width: 832px; */
         width: 57.7%;
         float: left;
         text-align: center;
-        /* border: 2px solid red; */
         overflow: hidden;
     }
     
@@ -404,17 +412,12 @@ footer {
     .bottomtext {
         /* width: 832px; */
         width: 98%;
-        /* float: left; */
         clear: both;
         padding-top: 10px;
         padding: 2px;
     }
-    
-    /* .aside-right {
-        width: 74.7%;
-        text-align: justify;
-        margin: 0 auto;
-    } */
+
+                                                        /* ASIDE RIGHT */
 
     .aside-right {
         width: 24.4%;
@@ -447,6 +450,8 @@ footer {
         float: left;
         font-size: 20px;
     }
+
+                                                        /* FOOTER */
     
     footer {
         /* width: 1440px; */
@@ -485,6 +490,7 @@ footer {
 
 
 
+            /* ПЛАНШЕТ ВЕРТИКАЛЬНЫЙ */
 
 
 @media (max-width: 1279px) {
@@ -492,6 +498,8 @@ footer {
         width: 75%;
         margin: 0 auto;
     }
+
+                                                    /* HEADER */
 
     header {
         width: 100%;
@@ -506,17 +514,7 @@ footer {
         height: auto;
     
     }
-    
-    h2 {
-        /* width: 1440px; */
-        width: 100%;
-        color: rgb(45,108,118);
-        font-family: Tahoma;
-        text-align: center;
-        font-size: 133.33%;
-        /* overflow: hidden; */
-    }
-    
+       
     .number {
         margin-top: 60px;
         margin-right: 20px;
@@ -525,6 +523,17 @@ footer {
         color: rgb(45,108,118);
         font-weight: 900;
         font-size: 18px;
+    }
+
+                                                                    /* HEADINGS */
+
+    h2 {
+        /* width: 1440px; */
+        width: 100%;
+        color: rgb(45,108,118);
+        font-family: Tahoma;
+        text-align: center;
+        font-size: 133.33%;
     }
     
     h3 {
@@ -549,14 +558,13 @@ footer {
         margin-bottom: 0px;
         /* padding: 2px 4px; */
     }
+
+                                                            /* ASIDE LEFT */
     
     .aside-left {
         /* width: 220px; */
         width: 100%;
-        /* margin-right: 50px; */
         float: left;
-        /* position: fixed; */
-        /* overflow: hidden; */
         margin: 0 auto;
     }
     
@@ -568,7 +576,6 @@ footer {
         font-weight: 900;
         font-size: 18px;
         padding-top: 65px;
-        /* position: fixed; */
     }
 
     ul {
@@ -581,15 +588,15 @@ footer {
     li {
         width: 15%;
         display: inline;
-        /* padding: ; */
     }
+
+                                                            /* MAIN */
     
     main {
         /* width: 832px; */
         width: 100%;
         float: left;
         text-align: center;
-        /* border: 2px solid red; */
         overflow: hidden;
     }
     
@@ -653,17 +660,12 @@ footer {
     .bottomtext {
         /* width: 832px; */
         width: 98%;
-        /* float: left; */
         clear: both;
         padding-top: 10px;
         padding: 2px;
     }
-    
-    /* .aside-right {
-        width: 74.7%;
-        text-align: justify;
-        margin: 0 auto;
-    } */
+
+                                                        /* ASIDE RIGHT */
 
     .aside-right {
         width: 100%;
@@ -697,6 +699,8 @@ footer {
         float: left;
         font-size: 20px;
     }
+
+                                                    /* FOOTER */
     
     footer {
         /* width: 1440px; */
@@ -734,7 +738,7 @@ footer {
 
 
 
-
+            /* ТЕЛЕФОН */
 
 
 @media (max-width: 640px) {
@@ -742,6 +746,8 @@ footer {
         width: 85%;
         margin: 0 auto;
     }
+
+                                    /* HEADER */
 
     header {
         width: 100%;
@@ -757,16 +763,6 @@ footer {
     
     }
     
-    h2 {
-        /* width: 1440px; */
-        width: 100%;
-        color: rgb(45,108,118);
-        font-family: Tahoma;
-        text-align: center;
-        font-size: 133.33%;
-        /* overflow: hidden; */
-    }
-    
     .number {
         margin-top: 60px;
         margin-right: 10px;
@@ -776,7 +772,18 @@ footer {
         font-weight: 900;
         font-size: 0.85em;
     }
+
+                                                /* HEADINGS */
     
+    h2 {
+        /* width: 1440px; */
+        width: 100%;
+        color: rgb(45,108,118);
+        font-family: Tahoma;
+        text-align: center;
+        font-size: 133.33%;
+    }
+
     h3 {
         /* width: 408px; */
         width: 100%;
@@ -797,15 +804,15 @@ footer {
         background-color: rgb(45,108,118);
         text-align: center;
         margin-bottom: 0px;
-        /* padding: 2px 4px; */
     }
+
+                                            /* ASIDE LEFT*/
     
     .aside-left {
         /* width: 220px; */
         width: 100%;
         margin-right: 50px;
         float: left;
-        /* overflow: hidden; */
     }
     
     nav {
@@ -828,15 +835,15 @@ footer {
         width: 15%;
         display: inline;
         font-size: 0.85em;
-        /* padding: ; */
     }
+
+                                            /* MAIN */
     
     main {
         /* width: 832px; */
         width: 100%;
         float: left;
         text-align: center;
-        /* border: 2px solid red; */
         overflow: hidden;
     }
     
@@ -852,13 +859,11 @@ footer {
     } 
     
     .articles1 {
-        /* float:left; */
         /* width: 408px; */
         width: 100%;
     }
     
     .articles2 {
-        /* float:right; */
         /* width: 408px; */
         width: 100%;
     }
@@ -906,12 +911,8 @@ footer {
         padding: 2px;
         padding-bottom: 45px;
     }
-    
-    /* .aside-right {
-        width: 74.7%;
-        text-align: justify;
-        margin: 0 auto;
-    } */
+
+                                            /* ASIDE RIGHT */
 
     .aside-right {
         width: 100%;
@@ -945,6 +946,8 @@ footer {
         font-size: 22px;
     }
     
+                                                /* FOOTER */
+
     footer {
         /* width: 1440px; */
         width: 100%;
@@ -977,17 +980,26 @@ footer {
 
 
 
+/* ТЕЛЕФОН */
+
 
 @media (min-width: 481px) and (max-width: 570px) {
+    
+                                    /* ASIDE LEFT */
+    
     li {
         width: 10%;
         font-size: 0.65em;
     }
 
+                                    /* HEADER */
+
     .number {
         width: 30%;
         font-size: 0.85em;
     }
+
+                                    /* FOOTER */
 
     footer {
         font-size: 0.75em;
@@ -995,19 +1007,24 @@ footer {
 }
 
 
+/* ТЕЛЕФОН */
+
 
 @media (max-width: 480px) {
+                                    /* HEADER */
+
     .number {
         width: 30%;
         font-size: 0.75em;
     }
+
+                                    /* ASIDE LEFT */
 
     .aside-left {
         /* width: 220px; */
         width: 85%;
         float: left;
         margin: 0 auto;
-        /* overflow: hidden; */
     }
     
     nav {
@@ -1022,13 +1039,11 @@ footer {
     ul {
         text-align: left;
         white-space: pre-line;
-        /* margin-right: 35px; */
     }
     
     li {
         width: 50%;
         display: list-item;
         font-size: 0.85em;
-        /* padding: ; */
     }
 }
